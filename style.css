@@ -1,32 +1,38 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  section {
-    padding: 20px;
   }
   
   #hero {
     background-color: #f4f4f4;
-    text-align: center;
+    padding: 20px;
   }
   
-  #about, #financial-analysis, #coding-projects, #contact {
-    margin: auto;
-    max-width: 800px;
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
-  button {
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    padding: 10px;
+  header h1 {
+    margin: 0;
   }
   
-  button:hover {
-    background-color: #0056b3;
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
   }
   
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
